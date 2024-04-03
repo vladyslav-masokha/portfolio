@@ -1,0 +1,67 @@
+:root {
+	--global-light: #fff;
+	--global-dark: #222;
+	--global-lightgreen: #70ff77;
+	--global-yellow-dark: #ffd900;
+	--global-blue: #170f46;
+	--global-blue-light: #281a76;
+	--global-dark-blue: #0d0927;
+	--global-lime: #50d4a4;
+	--global-purple: #b87aff;
+	--global-red: #ff7a7a;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol,
+li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#root {
+	min-width: auto;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.titleBlock {
+	text-align: center;
+	margin: 5px 0;
+	font-size: 24px;
+}

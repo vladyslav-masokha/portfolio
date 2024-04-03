@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"title": "HLegal",
+		"image": "/images/proj1.jpg",
+		"link": "https://inspiring-sable-189431.netlify.app"
+	},
+	{
+		"id": 2,
+		"title": "Organizer",
+		"image": "/images/proj2.jpg",
+		"link": "https://serene-crisp-616980.netlify.app"
+	},
+	{
+		"id": 3,
+		"title": "The list if anime I watched",
+		"image": "/images/proj3.jpg",
+		"link": "https://transcendent-crumble-955fb1.netlify.app/"
+	},
+	{
+		"id": 4,
+		"title": "Shelter for animals",
+		"image": "/images/proj4.jpg",
+		"link": "https://sparkling-cocada-6f7251.netlify.app/"
+	},
+	{
+		"id": 5,
+		"title": "HealthTech",
+		"image": "/images/proj5.jpg",
+		"link": "https://animated-narwhal-4e4491.netlify.app/"
+	}
+]

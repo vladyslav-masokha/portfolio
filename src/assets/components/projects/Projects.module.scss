@@ -1,0 +1,39 @@
+.projects {
+	margin: 30px 0;
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+
+	.projectItem {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+
+		.projectTitle {
+			margin: 5px 0;
+		}
+
+		.projectImage {
+			width: 100%;
+			max-width: 500px;
+			transition: all 0.5s ease-in-out;
+
+			&:hover {
+				box-shadow: 0 0 20px 5px var(--global-dark);
+			}
+		}
+
+		.projectLink {
+			color: var(--global-dark);
+			transition: color 0.5s ease-in-out;
+			font-weight: 700;
+
+			&:hover {
+				color: var(--global-lightgreen);
+			}
+		}
+	}
+}
