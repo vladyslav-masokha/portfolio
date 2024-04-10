@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { IProjects } from './IProjects'
 
 const FetchProjects = () => {
-	const [projects, setProjects] = useState<IProjects[] | null>(null)
+	const [projects, setProjects] = useState<IProjects[] | []>([])
 
 	useEffect(() => {
 		const fetchProjectsData = async () => {

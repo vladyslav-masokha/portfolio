@@ -6,7 +6,7 @@ const Project = () => {
 
 	return (
 		<>
-			{data ? (
+			{data.length > 0 ? (
 				<ul className={styles.projectsList}>
 					{data.map(project => (
 						<li key={project.id} className={styles.projectItem}>
@@ -23,19 +23,11 @@ const Project = () => {
 									className={styles.projectImage}
 								/>
 							</a>
-							<a
-								href={project.link}
-								target='_blank'
-								rel='noopener noreferrer'
-								className={styles.projectLink}
-							>
-								View Project
-							</a>
 						</li>
 					))}
 				</ul>
 			) : (
-				<p>No projects found</p>
+				<p>Проєкти не знайдені з технічних причин!</p>
 			)}
 		</>
 	)

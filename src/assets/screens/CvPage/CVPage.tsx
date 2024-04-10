@@ -1,3 +1,5 @@
+import { Header } from '../../components/Header/Header'
+import { Footer } from '../../components/footer/Footer'
 import styles from './CV.module.scss'
 import { AdditionalInfo } from './additionalInfo/AdditionalInfo'
 import { CertificatesInfo } from './certificatesInfo/CertificatesInfo'
@@ -10,11 +12,11 @@ import { SkillsInfo } from './skillsInfo/SkillsInfo'
 import { SoftSkillsInfo } from './softSkillsInfo/SoftSkillsInfo'
 import { UserNamePosition } from './userNamePosition/UserNamePosition'
 
-const CV = () => {
-
+const CVPage = () => {
 	return (
-		<>
-			<div  className={styles.cv}>
+		<div className={styles.bg}>
+			<Header />
+			<div className={styles.cv}>
 				<div className='wrapper'>
 					<UserNamePosition />
 					<hr />
@@ -37,8 +39,10 @@ const CV = () => {
 					</div>
 				</div>
 			</div>
-		</>
+
+			<Footer />
+		</div>
 	)
 }
 
-export { CV }
+export { CVPage }

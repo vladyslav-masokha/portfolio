@@ -1,0 +1,35 @@
+.titleBlock {
+	background-color: var(--global-dark);
+	border-top: 1px dotted var(--global-light);
+	text-align: center;
+
+	.titleBlockBody {
+		color: var(--global-light);
+		padding: 30px 0;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+
+		.position {
+			font-size: 56px;
+			font-style: italic;
+			text-shadow: 0 0 20px var(--global-purple);
+		}
+
+		img {
+			width: 100%;
+			max-width: 350px;
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.titleBlock {
+		.titleBlockBody {
+			flex-direction: row;
+			justify-content: space-between;
+		}
+	}
+}

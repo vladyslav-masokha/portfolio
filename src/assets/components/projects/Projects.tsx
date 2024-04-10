@@ -6,7 +6,9 @@ const Projects = () => {
 		<div className={styles.projects}>
 			<div className='wrapper'>
 				<div className={styles.projectsBody}>
-					<h2 className='titleBlock'>Projects</h2>
+					<h2 className='titleBlock'>
+						Відкрийте для себе наші вибрані проєкти
+					</h2>
 					<Project />
 				</div>
 			</div>

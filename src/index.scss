@@ -1,6 +1,6 @@
 :root {
 	--global-light: #fff;
-	--global-dark: #222;
+	--global-dark: #000;
 	--global-lightgreen: #70ff77;
 	--global-yellow-dark: #ffd900;
 	--global-blue: #170f46;
@@ -61,7 +61,15 @@ li {
 }
 
 .titleBlock {
+	color: var(--global-light);
+	text-transform: uppercase;
 	text-align: center;
-	margin: 5px 0;
+	margin: 15px 0;
 	font-size: 24px;
+}
+
+@media screen and (min-width: 1024px) {
+	.wrapper {
+		padding: 0 30px;
+	}
 }

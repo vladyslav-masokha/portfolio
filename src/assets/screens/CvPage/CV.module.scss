@@ -1,10 +1,14 @@
+.bg {
+	 background-color: var(--global-dark);
+}
+
 .cv {
 	background: var(--global-light);
 	color: var(--global-dark);
-	margin: 50px auto;
-	padding: 30px 15px;
+	margin: 30px auto;
+	padding: 60px 15px;
 
-	max-width: 600px;
+	max-width: 700px;
 	font-family: 'Montserrat', sans-serif;
 
 	a {
